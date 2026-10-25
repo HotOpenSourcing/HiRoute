@@ -34,3 +34,5 @@ __pycache__/
 # Local iteration assessments and stage-review working notes (not product contracts).
 /docs/acp-mvp-roi-review.md
 /docs/stage-product-integration-review.md
+config.bat
+node_modules

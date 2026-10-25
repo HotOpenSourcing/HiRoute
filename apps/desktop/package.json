@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc --noEmit && vite build",
-    "dev": "vite",
+    "build": "node init && tsc --noEmit && vite build",
+    "dev": "node init && vite",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "test:model-connections": "node --experimental-strip-types --test tests/model-connections-state.test.mjs",
     "test:session-correlation": "node --experimental-strip-types --test tests/session-correlation.test.mjs",

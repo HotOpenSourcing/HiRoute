@@ -3,6 +3,12 @@
   "version": "0.3.1",
   "private": true,
   "type": "module",
-  "scripts": { "build": "vite build", "tauri": "tauri" },
-  "devDependencies": { "@tauri-apps/cli": "2.11.4", "vite": "8.2.2" }
+  "scripts": {
+    "build": "node init && vite build",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.11.4",
+    "vite": "8.2.2"
+  }
 }
